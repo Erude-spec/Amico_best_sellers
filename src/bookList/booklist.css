@@ -1,0 +1,51 @@
+.booklist {
+  display: grid;
+  margin: 0rem auto;
+  width: 80.39%;
+  gap: 2.44rem;
+  justify-content: center;
+  margin-top: 6.5rem;
+}
+.heading {
+  text-transform: uppercase;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  padding: 1.7rem 0;
+  top: 0; /* Stick the heading to the top of the page */
+  left: 50%; /* Center the heading horizontally */
+  transform: translateX(-50%); /* Center the heading horizontally */
+  background: #E9E6E1; /* Add a background color if needed */
+  width: 100%;
+}
+
+.shopping-cart-container {
+  display: flex;
+  align-items: center;
+}
+.cart-number {
+  display: flex;
+  width: 0.8125rem;
+  padding: 0em 0.375em;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  background: #dee219;
+  font-family: "Proza Libre", sans-serif;
+  font-size: 0.8rem;
+}
+@media (min-width: 600px) {
+  .booklist {
+    grid-template-columns: repeat(3, 1fr);
+    align-items: start;
+  }
+  .heading{
+    font-size: 2.375rem;
+  }
+}

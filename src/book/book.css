@@ -1,0 +1,77 @@
+.book {
+  min-width: 250px;
+  background: #fff;
+  border-radius: 1.875rem;
+  padding: 1rem 3.5rem;
+  font-family: "Proza Libre", sans-serif;
+  position: relative;
+  text-align: center;
+}
+.book:hover {
+  box-shadow: 11px 10px 57px 0px rgba(0, 0, 0, 0.25);
+}
+
+.book img {
+  object-fit: cover;
+  width: 100%;
+  border-radius: 1.88rem;
+}
+.title {
+  font-size: 1.5rem;
+  font-weight: 900;
+  text-transform: capitalize;
+  
+}
+.author {
+  font-size: 1.25rem;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.price {
+  font-size: 1.25rem;
+  font-weight: 400px;
+  line-height: normal;
+}
+.number {
+  border-radius: 3.125rem 0rem;
+  background: #dee219;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 3.6875rem;
+  width: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  display: inline-flex;
+  height: 2.8125rem;
+  padding: 0.9em 1.3em;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 1rem;
+  background: #fd0000;
+  box-shadow: 3px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.125rem;
+}
+.btn:active {
+  background-color: #fd0000;
+  box-shadow: 5px 5px 11px 0px rgba(0, 0, 0, 0.48) inset,
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.btn:hover{
+  background-color: #C30000;
+}
+
+.details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
